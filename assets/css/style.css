@@ -1,0 +1,43 @@
+
+
+body {
+
+	
+}
+
+.mainheader{
+	background-color: #ffffff;
+	border-color:#cccccc;
+	display: inline;
+
+
+}
+.navbutton{
+
+	
+	float: right;
+	padding: 10px;
+}
+
+.topnav{
+
+	list-style-type: none;
+}
+
+
+.maincontent{
+	background-color: #ffffff;
+	border-color: #dddddd;
+	display: inline;
+
+
+}
+
+#profilepic{
+
+	height: 25%;
+	width: 25%;
+
+}
+
+}
