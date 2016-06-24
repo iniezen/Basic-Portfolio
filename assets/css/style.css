@@ -1,42 +1,149 @@
 
 
 body {
+	background-image: url(../images/textured_paper.png);
+	margin:0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
 
-	
+
 }
 
+h1, h3{
+
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+
+
+.mainlogo{
+
+	padding:5px;
+	display: inline;
+	background-color: #4aaaa5;
+	margin-left:110px;
+	margin-bottom: 0px;
+	color:white;
+	height:65px;
+	width:165px;
+
+
+}
 .mainheader{
 	background-color: #ffffff;
 	border-color:#cccccc;
-	display: inline;
+	display: block;
+	margin: 0;
+	padding:0;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	height:65px;
+
 
 
 }
 .navbutton{
 
-	
-	float: right;
-	padding: 10px;
+	padding: 5px;
+	display: inline;
+	color:#dddddd;
 }
 
 .topnav{
 
 	list-style-type: none;
+	float: right;
+	display: inline;
+	margin-right: 110px;
 }
 
 
 .maincontent{
-	background-color: #ffffff;
+
 	border-color: #dddddd;
 	display: inline;
+	
 
+
+}
+
+.pagecontent{
+	width:440px;
+	display:inline-block;
+	border-color: #dddddd;
+	background-color: #ffffff;
+	margin-left:110px;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
 
 #profilepic{
 
-	height: 25%;
-	width: 25%;
+	height: 30%;
+	width: 30%;
+	float:left;
+	display:inline;
+	margin-right: 18px;
+
+
+
+}
+.profile{
+
+	display:inline-block;
+}
+
+.profiletext{
+
+	display:inline;
+
+
+}
+
+.sidebar{
+
+	display: inline-block;
+	float:right;
+	width:180px;
+	margin-right:110px;
+	margin-top: 30px;
+	border-color: #dddddd;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.icon{
+
+	height:25%;
+	width:25%;
+}
+
+.footer{
+
+	background-color: #666666;
+	font-size: 10px;
+	position:absolute;
+	bottom:0;
+	text-align: center;
+	display: block;
+	width:100%;
+	height: 50px;
+	color: #dddddd;
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+	border-top-width: 5px;
+
+}
+
+.button{
+	width: 90px;
+	height: 30px;
+	background-color: #4aaaa5;
 
 }
 
