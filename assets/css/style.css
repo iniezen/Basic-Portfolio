@@ -241,17 +241,54 @@ hr{
 .leftportfolioimage{
 	float: left;
 	margin: 10px 30px 10px 0px;
+	position: relative;
+
 	
 	}
 
 .rightportfolioimage{
 	float: right;
 	margin: 10px 0px 10px 0px;
+	position: relative;
+	
 }	
 
-.portfoliosection{
+.imagetitle{
 
+	line-height: 30px;
+	background-color: #4aaaa5;
+	color: white;
+	position: relative;
+	width: 200px;
+	bottom:65px;
+	text-align: center;
 
+	
+	 
+}
+
+.leftimagediv{
+	max-width: 200px;
+	position: relative;
+	display: inline-block;
+	height: 150px;
+	float:left;
+	margin-bottom: 20px;
+}
+
+.rightimagediv{
+	max-width: 200px;
+	position: relative;
+	display: inline-block;
+	height: 150px;
+	float:right;
+	margin-bottom: 20px;
+}
+
+.picturecontainer{
+
+width:100%;
+position:relative;
 	
 }	
 
@@ -281,6 +318,9 @@ hr{
 	height: 100%;
 }
 
+h4{
 
+	display: inline-block;
+}
 
 }
